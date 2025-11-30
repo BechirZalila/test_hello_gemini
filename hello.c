@@ -7,18 +7,19 @@ void afficher_message(void);
 
 /* Fonction principale */
 int main(void) {
+    int compteur = 0;
     printf("Début du programme.\n");
 
     afficher_message();
 
     compteur++;
 
-    fonction_inconnue();
+    // fonction_inconnue();
 
     return 0;
 }
 
 /* Définition d’une fonction interne */
 void afficher_message(void) {
-  printf("Message interne\n")
+  printf("Message interne\n");
 }

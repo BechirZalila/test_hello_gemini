@@ -1,9 +1,7 @@
 /* fichier : exercice.c */
 
 #include <stdio.h>
-
-/* Prototype d’une fonction interne */
-void afficher_message(void);
+#include "hello_lib.h"
 
 /* Fonction principale */
 int main(void) {
@@ -17,9 +15,4 @@ int main(void) {
     // fonction_inconnue();
 
     return 0;
-}
-
-/* Définition d’une fonction interne */
-void afficher_message(void) {
-  printf("Message interne\n");
 }

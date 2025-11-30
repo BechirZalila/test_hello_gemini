@@ -1,3 +1,5 @@
+This project (except for the initial commit) was created and modified using the Gemini CLI, including the creation of the GitHub repository and all subsequent pushes.
+
 # Hello Project
 
 This project is a simple "Hello, World!" program that demonstrates how to build a C project using two different build systems: Autotools and CMake.
